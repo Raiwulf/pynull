@@ -1,5 +1,4 @@
-
-# pynull
+# pyNull
 A python application that nullifies any files who match the regex filter and path provided by the user. The pyNull application is designed to process files in a specified directory by nulling (emptying) their content while creating backups of the original files. It also allows the user to configure the directory path and a regular expression filter for selecting files to be processed.
 
 # pyNull GUI Application
