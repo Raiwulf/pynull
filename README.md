@@ -3,6 +3,8 @@ A python application that nullifies any files who match the regex filter and pat
 
 # pyNull GUI Application
 
+<img width="281" alt="image" src="https://github.com/Raiwulf/pynull/assets/16378092/e94300bb-6cab-412f-bded-46380da6b945">
+
 This document describes the structure and functionality of the pyNuller GUI application written in Python using the Tkinter library.
 
 ## Code Structure
