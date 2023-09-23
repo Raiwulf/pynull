@@ -251,14 +251,21 @@ canvas.create_text(
 def open_github_url():
     webbrowser.open_new("https://github.com/Raiwulf/pynull")
 
-about_button = tk.Button(
-    window,
-    text="Info",
+button_info_image = PhotoImage(
+    file=relative_to_assets("button_info.png"))
+button_info = Button(
+    image=button_info_image,
+    borderwidth=0,
+    highlightthickness=0,
     command=open_github_url,
-    padx=8,
-    pady=4,
+    relief="flat"
 )
-about_button.pack(side="top", anchor="ne")
+button_info.place(
+    x=335.0,
+    y=0.0,
+    width=40.0,
+    height=40.0
+)
 
 load_data()
 
