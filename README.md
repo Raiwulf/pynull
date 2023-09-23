@@ -56,9 +56,9 @@ The GUI setup section includes creating the main Tkinter window, configuring its
 
 The main application section creates the Tkinter window, sets its properties, and starts the main event loop. It also binds events to specific actions.
 
-### "About" Button
+### "Info" Button
 
-A "About" button has been added to the top right corner of the window. It opens the GitHub page of the application's author when clicked.
+An "Info" button has been added to the top right corner of the window. It opens the GitHub page of the application's author when clicked.
 
 ```python
 def open_github_url():
