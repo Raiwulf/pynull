@@ -1,14 +1,10 @@
-# pynull
-A python application that nullifies any files who match the regex filter and path provided by the user.
 
-```markdown
-# pyNuller GUI Application
+# pynull
+A python application that nullifies any files who match the regex filter and path provided by the user. The pyNull application is designed to process files in a specified directory by nulling (emptying) their content while creating backups of the original files. It also allows the user to configure the directory path and a regular expression filter for selecting files to be processed.
+
+# pyNull GUI Application
 
 This document describes the structure and functionality of the pyNuller GUI application written in Python using the Tkinter library.
-
-## Introduction
-
-The pyNuller application is designed to process files in a specified directory by nulling (emptying) their content while creating backups of the original files. It also allows the user to configure the directory path and a regular expression filter for selecting files to be processed.
 
 ## Code Structure
 
@@ -24,7 +20,7 @@ import tkinter as tk
 from pathlib import Path
 from tkinter import Canvas, Entry, Text, Button, PhotoImage, filedialog, messagebox, Tk
 import webbrowser
-```
+``````
 
 ### Constants
 
@@ -85,4 +81,3 @@ To use the pyNuller application:
 The pyNuller application provides a simple GUI for nulling files in a directory with backup functionality. It is designed for ease of use and customization.
 
 For more details or to contribute to the project, please visit the [GitHub repository](https://github.com/Raiwulf/pynull).
-```
