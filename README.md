@@ -71,7 +71,7 @@ def open_github_url():
 
 To use the pyNuller application:
 
-1. Run the script.
+1. Run install_dependencies.py then the script.
 2. Configure the directory path and regular expression filter.
 3. Click the "Process" button to null files and create backups.
 4. View the status and error messages in the log area.
